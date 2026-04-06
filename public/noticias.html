@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Noticias | RenovaSol</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/"><img src="/assets/logo.png" alt="RenovaSol" /><span class="name">RenovaSol</span></a>
+      <button class="hamburger" id="navToggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="/quienes-somos">Quiénes Somos</a>
+        <a href="/que-hacemos">Qué Hacemos</a>
+        <a href="/noticias">Noticias</a>
+        <a href="/contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="article">
+      <div class="kicker">Actualizaciones</div>
+      <h1>Noticias</h1>
+      <p class="lead">Comunicados, avances y perspectivas del desarrollo solar a escala.</p>
+
+      <div class="news-list">
+        <a class="news-item" href="/noticias/articulo">
+          <div class="news-meta">Feb 2026 • Comunicado</div>
+          <h3 class="news-title">RenovaSol anuncia el inicio de su plataforma de desarrollo solar</h3>
+          <p class="news-excerpt">Un paso estratégico para acelerar infraestructura renovable de escala en el mercado local.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">© <span id="y"></span> RenovaSol.</div></footer>
+  <script src="/js/nav.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

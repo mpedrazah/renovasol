@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiénes Somos | RenovaSol</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/"><img src="/assets/logo.png" alt="RenovaSol" /><span class="name">RenovaSol</span></a>
+      <button class="hamburger" id="navToggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="/quienes-somos">Quiénes Somos</a>
+        <a href="/que-hacemos">Qué Hacemos</a>
+        <a href="/noticias">Noticias</a>
+        <a href="/contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="article">
+      <div class="kicker">Nuestra historia</div>
+      <h1>Construimos energía limpia con visión de país</h1>
+      <p class="lead">
+        RenovaSol nace con una meta clara: aportar infraestructura solar a gran escala para impulsar hogares,
+        industrias y el crecimiento económico con energía más limpia y confiable.
+      </p>
+
+      <div class="content">
+        <h2>Propósito</h2>
+        <p>
+          Queremos hacer del planeta un lugar mejor con soluciones reales. Creemos que la transición energética se logra
+          construyendo activos que funcionen: proyectos de escala, bien diseñados, bien ejecutados y operados con disciplina.
+        </p>
+
+        <h2>En qué creemos</h2>
+        <ul class="list">
+          <li><strong>Impacto medible:</strong> energía que entra a la red y mejora la matriz.</li>
+          <li><strong>Excelencia técnica:</strong> estándares internacionales en ingeniería, seguridad y calidad.</li>
+          <li><strong>Relaciones de largo plazo:</strong> comunidades, proveedores y actores del sistema eléctrico.</li>
+          <li><strong>Transparencia:</strong> decisiones claras y gobernanza sólida.</li>
+        </ul>
+
+        <h2>Cómo trabajamos</h2>
+        <p>
+          Combinamos pensamiento de largo plazo con ejecución. Desde el análisis de sitio y permisos hasta la interconexión,
+          el financiamiento y la operación, buscamos proyectos que sean sostenibles técnica y económicamente.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">© <span id="y"></span> RenovaSol.</div></footer>
+  <script src="/js/nav.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
