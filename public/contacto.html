@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto | RenovaSol</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <meta
+    name="description"
+    content="Ponte en contacto con RenovaSol para conversar sobre desarrollo solar, alianzas estratégicas e infraestructura energética en Bolivia."
+  />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="/">
+          <img src="/assets/logo.png" alt="RenovaSol" />
+        </a>
+
+        <button id="burger" class="burger" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+        <nav class="navlinks" aria-label="Navegación principal">
+          <a href="/quienes-somos">Quiénes somos</a>
+          <a href="/que-hacemos">Qué hacemos</a>
+          <a href="/noticias">Noticias</a>
+          <a href="/contacto" class="cta">Contáctanos</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero page-hero-contact">
+    <div class="container page-hero-inner">
+      <div class="eyebrow">CONTACTO</div>
+      <h1 class="page-title">Conversemos sobre el futuro energético de Bolivia.</h1>
+      <p class="page-lead">
+        En RenovaSol buscamos construir relaciones de largo plazo con inversionistas, socios estratégicos,
+        propietarios, proveedores y actores institucionales comprometidos con infraestructura energética de alto impacto.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div class="contact-copy">
+        <div class="eyebrow dark">HABLEMOS</div>
+        <h2 class="section-title">Estamos listos para escuchar oportunidades serias.</h2>
+        <p class="section-sub no-top">
+          Si deseas conversar sobre desarrollo de proyectos solares, alianzas, suelo, capital,
+          ejecución o visión de plataforma, estaremos encantados de conocerte.
+        </p>
+
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <h3>Correo</h3>
+            <p><a href="mailto:info@renovasol.com">info@renovasol.com</a></p>
+          </div>
+
+          <div class="contact-info-card">
+            <h3>Ubicación</h3>
+            <p>Bolivia</p>
+          </div>
+
+          <div class="contact-info-card">
+            <h3>Tipo de consultas</h3>
+            <p>Alianzas estratégicas, desarrollo de proyectos, inversión y relacionamiento institucional.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <div class="eyebrow dark">ENVÍANOS UN MENSAJE</div>
+        <h2>Contacto</h2>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+          </div>
+
+          <div class="form-row">
+            <label for="empresa">Empresa / organización</label>
+            <input id="empresa" name="empresa" type="text" placeholder="Nombre de empresa" />
+          </div>
+
+          <div class="form-row">
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" name="correo" type="email" placeholder="nombre@empresa.com" />
+          </div>
+
+          <div class="form-row">
+            <label for="tipo">Tipo de consulta</label>
+            <select id="tipo" name="tipo">
+              <option value="">Selecciona una opción</option>
+              <option>Desarrollo de proyectos</option>
+              <option>Alianza estratégica</option>
+              <option>Inversión</option>
+              <option>Relacionamiento institucional</option>
+              <option>Proveedores / ejecución</option>
+              <option>Otro</option>
+            </select>
+          </div>
+
+          <div class="form-row form-row-full">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu consulta"></textarea>
+          </div>
+
+          <div class="form-row form-row-full">
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+          </div>
+
+          <p class="contact-note">
+            Este formulario es una maqueta visual. Cuando quieras, te ayudo a conectarlo para que envíe correos reales desde Railway.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="cta-band-inner contact-cta">
+        <div>
+          <div class="eyebrow">RENOVASOL</div>
+          <h2 class="section-title">Infraestructura solar con visión, disciplina y escala.</h2>
+          <p class="section-sub">
+            Desarrollamos proyectos pensados para acompañar el crecimiento energético del país con una mirada de largo plazo.
+          </p>
+        </div>
+        <div>
+          <a class="btn primary" href="/que-hacemos">Conoce qué hacemos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> RenovaSol</div>
+      <div>Conectamos el sol con el país</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

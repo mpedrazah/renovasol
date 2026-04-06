@@ -2,59 +2,135 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Quiénes Somos | RenovaSol</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiénes somos | RenovaSol</title>
   <link rel="stylesheet" href="/css/styles.css" />
+  <meta name="description" content="Conoce a RenovaSol, nuestra visión, nuestro liderazgo y el equipo que impulsa proyectos solares de gran escala en Bolivia." />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="/"><img src="/assets/logo.png" alt="RenovaSol" /><span class="name">RenovaSol</span></a>
-      <button class="hamburger" id="navToggle" aria-label="Abrir menú">☰</button>
-      <nav class="nav" id="navMenu">
-        <a href="/quienes-somos">Quiénes Somos</a>
-        <a href="/que-hacemos">Qué Hacemos</a>
-        <a href="/noticias">Noticias</a>
-        <a href="/contacto">Contacto</a>
-      </nav>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="/"><img src="/assets/logo.png" alt="RenovaSol" /></a>
+        <button id="burger" class="burger" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+        <nav class="navlinks" aria-label="Navegación principal">
+          <a href="/quienes-somos">Quiénes somos</a>
+          <a href="/que-hacemos">Qué hacemos</a>
+          <a href="/noticias">Noticias</a>
+          <a href="/contacto" class="cta">Contáctanos</a>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="article">
-      <div class="kicker">Nuestra historia</div>
-      <h1>Construimos energía limpia con visión de país</h1>
-      <p class="lead">
-        RenovaSol nace con una meta clara: aportar infraestructura solar a gran escala para impulsar hogares,
-        industrias y el crecimiento económico con energía más limpia y confiable.
+  <section class="page-hero page-hero-about">
+    <div class="container">
+      <div class="eyebrow">QUIÉNES SOMOS</div>
+      <h1 class="page-title">Construimos una plataforma solar con visión de país.</h1>
+      <p class="page-lead">
+        RenovaSol nace para desarrollar proyectos solares de gran escala con una visión institucional,
+        disciplina de ejecución y compromiso de largo plazo con el futuro energético de Bolivia.
       </p>
+    </div>
+  </section>
 
-      <div class="content">
-        <h2>Propósito</h2>
+  <section class="subnav-section">
+    <div class="container">
+      <div class="subnav">
+        <a href="/sobre-nosotros">Sobre nosotros</a>
+        <a href="/conoce-al-equipo">Conoce al equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split-intro">
+        <div>
+          <div class="eyebrow dark">NUESTRA IDENTIDAD</div>
+          <h2 class="section-title">Una compañía enfocada en escala, confiabilidad e impacto.</h2>
+        </div>
+        <div>
+          <p class="section-sub bigger">
+            Creemos que la transición energética requiere empresas capaces de pensar en grande,
+            ejecutar con rigor y operar con estándares de clase mundial. Por eso trabajamos para
+            desarrollar infraestructura solar que fortalezca el sistema eléctrico y acompañe el crecimiento del país.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid feature-grid">
+        <div class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Visión estratégica</h3>
+          <p>Seleccionamos oportunidades con mirada de largo plazo y foco en valor sostenible.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Disciplina técnica</h3>
+          <p>Integramos desarrollo, interconexión, construcción y operación bajo una misma visión de calidad.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Compromiso con Bolivia</h3>
+          <p>Impulsamos energía renovable para fortalecer hogares, industria y competitividad nacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-section">
+    <div class="container">
+      <div class="leadership-card">
+        <div class="leadership-image">
+          <img src="/assets/diego.jpg" alt="Diego Pedrazas, Fundador y CEO de RenovaSol" />
+        </div>
+
+        <div class="leadership-content">
+          <div class="eyebrow dark">LIDERAZGO</div>
+          <h2>Diego Pedrazas</h2>
+          <div class="leadership-role">Fundador / CEO</div>
+
+          <p>
+            Diego lidera RenovaSol con una visión de crecimiento basada en infraestructura energética,
+            análisis estratégico y ejecución disciplinada. Su trayectoria profesional combina experiencia
+            en inversiones, modelación financiera y desarrollo de oportunidades dentro del sector energético.
+          </p>
+
+          <p>
+            En RenovaSol, su enfoque está puesto en construir una plataforma solar sólida, profesional y
+            de largo plazo para Bolivia, capaz de transformar recurso solar en proyectos reales con impacto económico y social.
+          </p>
+
+          <div class="leadership-actions">
+            <a class="btn primary" href="/conoce-al-equipo">Ver equipo</a>
+            <a class="btn ghost-dark" href="/sobre-nosotros">Conocer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="quote-block">
         <p>
-          Queremos hacer del planeta un lugar mejor con soluciones reales. Creemos que la transición energética se logra
-          construyendo activos que funcionen: proyectos de escala, bien diseñados, bien ejecutados y operados con disciplina.
-        </p>
-
-        <h2>En qué creemos</h2>
-        <ul class="list">
-          <li><strong>Impacto medible:</strong> energía que entra a la red y mejora la matriz.</li>
-          <li><strong>Excelencia técnica:</strong> estándares internacionales en ingeniería, seguridad y calidad.</li>
-          <li><strong>Relaciones de largo plazo:</strong> comunidades, proveedores y actores del sistema eléctrico.</li>
-          <li><strong>Transparencia:</strong> decisiones claras y gobernanza sólida.</li>
-        </ul>
-
-        <h2>Cómo trabajamos</h2>
-        <p>
-          Combinamos pensamiento de largo plazo con ejecución. Desde el análisis de sitio y permisos hasta la interconexión,
-          el financiamiento y la operación, buscamos proyectos que sean sostenibles técnica y económicamente.
+          “RenovaSol existe para conectar visión, capital, ejecución y recurso solar en una sola plataforma
+          capaz de acompañar el futuro energético de Bolivia.”
         </p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="footer"><div class="container">© <span id="y"></span> RenovaSol.</div></footer>
-  <script src="/js/nav.js"></script>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> RenovaSol</div>
+      <div>Conectamos el sol con el país</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
   <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -2,42 +2,122 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Noticias | RenovaSol</title>
   <link rel="stylesheet" href="/css/styles.css" />
+  <meta
+    name="description"
+    content="Noticias, análisis y actualizaciones de RenovaSol sobre energía solar, infraestructura y transición energética en Bolivia."
+  />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="/"><img src="/assets/logo.png" alt="RenovaSol" /><span class="name">RenovaSol</span></a>
-      <button class="hamburger" id="navToggle" aria-label="Abrir menú">☰</button>
-      <nav class="nav" id="navMenu">
-        <a href="/quienes-somos">Quiénes Somos</a>
-        <a href="/que-hacemos">Qué Hacemos</a>
-        <a href="/noticias">Noticias</a>
-        <a href="/contacto">Contacto</a>
-      </nav>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="/">
+          <img src="/assets/logo.png" alt="RenovaSol" />
+        </a>
+
+        <button id="burger" class="burger" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+        <nav class="navlinks" aria-label="Navegación principal">
+          <a href="/quienes-somos">Quiénes somos</a>
+          <a href="/que-hacemos">Qué hacemos</a>
+          <a href="/noticias">Noticias</a>
+          <a href="/contacto" class="cta">Contáctanos</a>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="article">
-      <div class="kicker">Actualizaciones</div>
-      <h1>Noticias</h1>
-      <p class="lead">Comunicados, avances y perspectivas del desarrollo solar a escala.</p>
+  <section class="page-hero page-hero-news">
+    <div class="container page-hero-inner">
+      <div class="eyebrow">NOTICIAS</div>
+      <h1 class="page-title">Perspectivas, análisis y avances sobre el futuro energético de Bolivia.</h1>
+      <p class="page-lead">
+        Compartimos análisis estratégicos, comunicados y señales relevantes del mercado energético
+        que refuerzan la necesidad de nueva infraestructura renovable en el país.
+      </p>
+    </div>
+  </section>
 
-      <div class="news-list">
-        <a class="news-item" href="/noticias/articulo">
-          <div class="news-meta">Feb 2026 • Comunicado</div>
-          <h3 class="news-title">RenovaSol anuncia el inicio de su plataforma de desarrollo solar</h3>
-          <p class="news-excerpt">Un paso estratégico para acelerar infraestructura renovable de escala en el mercado local.</p>
+  <section class="section news-index-section">
+    <div class="container">
+      <div class="news-index-grid">
+        <a class="news-card featured" href="/noticia">
+          <div class="news-card-meta">Abril 2026 • Análisis</div>
+          <h2>Bolivia enfrenta caída en reservas de gas y desafíos energéticos de largo plazo</h2>
+          <p>
+            La disminución sostenida de reservas de gas refuerza la urgencia de desarrollar
+            nueva infraestructura energética y acelerar una transición respaldada por energía solar.
+          </p>
+          <span class="news-card-link">Leer análisis</span>
+        </a>
+
+        <div class="news-side-list">
+          <a class="news-side-item" href="/noticia">
+            <div class="news-card-meta">Abril 2026 • Sistema energético</div>
+            <h3>Reservas de gas y necesidad de nueva capacidad de generación</h3>
+            <p>Un punto de inflexión para la planificación energética y la inversión de largo plazo.</p>
+          </a>
+
+          <a class="news-side-item" href="/noticia">
+            <div class="news-card-meta">Abril 2026 • Perspectiva</div>
+            <h3>La energía solar como componente estratégico para Bolivia</h3>
+            <p>La disponibilidad de recurso solar posiciona al país para una nueva etapa de infraestructura.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-heading">
+        <div class="eyebrow">PUBLICACIONES</div>
+        <h2 class="section-title">Últimas publicaciones</h2>
+        <p class="section-sub">
+          Una mirada institucional sobre desarrollo solar, transición energética y oportunidades de infraestructura.
+        </p>
+      </div>
+
+      <div class="insights-grid">
+        <a class="insight-card" href="/noticia">
+          <div class="insight-meta">Abril 2026 • Análisis</div>
+          <h3>Bolivia enfrenta caída en reservas de gas y desafíos energéticos de largo plazo</h3>
+          <p>
+            La caída de reservas introduce una discusión estructural sobre seguridad energética y
+            fuentes de generación futuras.
+          </p>
+        </a>
+
+        <a class="insight-card" href="/noticia">
+          <div class="insight-meta">Abril 2026 • Infraestructura</div>
+          <h3>Nueva infraestructura renovable como respuesta de largo plazo</h3>
+          <p>
+            El desarrollo de activos utility-scale puede fortalecer resiliencia, confiabilidad y competitividad.
+          </p>
+        </a>
+
+        <a class="insight-card" href="/noticia">
+          <div class="insight-meta">Abril 2026 • RenovaSol</div>
+          <h3>Una visión institucional para el crecimiento energético de Bolivia</h3>
+          <p>
+            RenovaSol apuesta por una plataforma solar con disciplina técnica, visión estratégica y ejecución rigurosa.
+          </p>
         </a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="footer"><div class="container">© <span id="y"></span> RenovaSol.</div></footer>
-  <script src="/js/nav.js"></script>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> RenovaSol</div>
+      <div>Conectamos el sol con el país</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
   <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
