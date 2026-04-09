@@ -1415,3 +1415,86 @@ small.help{color:var(--slate)}
   font-weight: 700;
   text-align: center;
 }
+
+.team-grid-clean{
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 900px){
+  .team-grid-clean{
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-card-clean{
+  background: #fff;
+  border: 1px solid rgba(194,182,173,.35);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.team-card-image img{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  background: #e9e6e3;
+}
+
+.team-card-body{
+  padding: 24px;
+}
+
+.team-card-body h3{
+  font-size: 30px;
+  line-height: 1.08;
+  color: var(--navy);
+}
+
+.team-card-role{
+  margin-top: 8px;
+  margin-bottom: 18px;
+  color: var(--gold);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.profile-layout{
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 34px;
+  align-items: start;
+}
+
+@media (max-width: 980px){
+  .profile-layout{
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-image img{
+  width: 100%;
+  border-radius: 26px;
+  object-fit: cover;
+  min-height: 460px;
+  background: #e9e6e3;
+  box-shadow: var(--shadow);
+}
+
+.profile-content h2{
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.1;
+  color: var(--navy);
+}
+
+.profile-content p{
+  margin-top: 16px;
+  color: var(--slate);
+  font-size: 17px;
+  line-height: 1.75;
+}

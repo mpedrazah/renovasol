@@ -23,8 +23,11 @@ app.get("/contacto", (req, res) => res.sendFile(path.join(__dirname, "public/con
 app.get("/noticia", (req, res) =>
   res.sendFile(path.join(__dirname, "public", "noticia.html"))
 );
+app.get("/diego-pedrazas", (req, res) => res.sendFile(path.join(__dirname, "public/diego-pedrazas.html")));
+app.get("/eduardo", (req, res) => res.sendFile(path.join(__dirname, "public/eduardo.html")));
 app.get("/health", (req, res) => res.status(200).send("OK"));
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`RenovaSol site running on port ${PORT}`);
 });
+
