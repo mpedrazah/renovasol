@@ -1517,3 +1517,40 @@ small.help{color:var(--slate)}
   object-fit: cover;
   object-position: center 20%;
 }
+.page-hero-sobre{
+  background:
+    linear-gradient(180deg, rgba(31,36,53,.75) 0%, rgba(31,36,53,.95) 100%),
+    url("/assets/solar2.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0 80px;
+}
+
+.page-hero-about{
+  background:
+    linear-gradient(180deg, rgba(31,36,53,.75) 0%, rgba(31,36,53,.95) 100%),
+    url("/assets/solar1.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0 80px;
+}
+
+.page-hero-contact{
+  background:
+    linear-gradient(180deg, rgba(31,36,53,.75) 0%, rgba(31,36,53,.95) 100%),
+    url("/assets/solar2.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0 80px;
+}
+
+.page-hero{
+  position: relative;
+}
+
+.page-hero .container{
+  position: relative;
+  z-index: 2;
+}
+
+.page-hero-about,
+.page-hero-contact{
+  background-size: 110%;
+}
