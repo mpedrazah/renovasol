@@ -1554,3 +1554,21 @@ small.help{color:var(--slate)}
 .page-hero-contact{
   background-size: 110%;
 }
+
+/* MOBILE HERO IMAGE FIX */
+@media (max-width: 640px){
+
+  .page-hero-about,
+  .page-hero-contact,
+  .page-hero-sobre{
+    
+    /* Make hero shorter */
+    min-height: auto;
+    padding: 60px 0 40px;
+
+    /* Better image behavior */
+    background-size: cover;
+    background-position: center center;
+  }
+
+}
